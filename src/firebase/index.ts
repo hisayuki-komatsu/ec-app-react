@@ -1,4 +1,4 @@
-import firebase from 'firebase/app'
+import firebase from 'firebase/compat/app'
 import 'firebase/auth'
 import 'firebase/firestore'
 import 'firebase/storage'
@@ -11,4 +11,4 @@ export const auht = firebase.auth()
 export const db = firebase.firestore()
 export const storage = firebase.storage()
 export const functions = firebase.functions()
-export const FirebaseTimestamp = firebase.firestore.FirebaseTimestamp()
+export const FirebaseTimestamp = firebase.firestore.Timestamp
