@@ -1,11 +1,5 @@
 {
   "singleQuote": true,
-<<<<<<< HEAD
-  "semi": true,
-  "trailingComma": "all"
-}
-=======
   "semi": false,
   "trailingComma": "all"
 }
->>>>>>> 6cb83946fdb5323b33c04930361c2830b1d4235f
